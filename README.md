@@ -1,55 +1,6 @@
-# wechatmp2markdown 微信公众号文章转Markdown
+# 微信公众号文章转 Markdown 格式保存 
+   -- WeChatmp2markdown 
 
-```
-注意：本项目源代码目前只托管在 Github 平台，该平台的logo是一只“直立着、有一只触手的章鱼猫”，若您在其他地方看到本项目，请勿相信。
-gggggggggggggggggggggggggggggggggggggggggggggggpppbbbbbbbbbbbbbbbpppggggggggggggggggggggggggggggggggggggggggggggggg
-ggggggggggggggggggggggggggggggggggggggpbmhb7                          77hhbbpgggggggggggggggggggggggggggggggggggggg
-ggggggggggggggggggggggggggggggggpbh7                                          77hbpgggggggggggggggggggggggggggggggg
-gggggggggggggggggggggggggggpph7                                                     7hpgggggggggggggggggggggggggggg
-gggggggggggggggggggggggpph                                                              7hpgggggggggggggggggggggggg
-ggggggggggggggggggggpmb                                                                     hbggggggggggggggggggggg
-gggggggggggggggggppb                                                                           hpgggggggggggggggggg
-gggggggggggggggpb                                                                                 hgggggggggggggggg
-gggggggggggggpb                                                                                     hpggggggggggggg
-gggggggggggpm                                                                                         7pggggggggggg
-gggggggggpb               ggggggggggg                                         gggggggggg                hgggggggggg
-ggggggggm                 ggggggggggggggg       ggggggggggggggggggg       ggggggggggggggg                 bgggggggg
-ggggggpm                 gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg                  7ggggggg
-gggggm                   gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg                    gggggg
-ggggm                     ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg                     qgggg
-gggm                      ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggp                      qggg
-ggm                      ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg                      ggg
-gp                     gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg                     7gg
-g                     ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg                    jg
-p                    gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg                     g
-                     ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg                    g
-m                    ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg                    7
-                     ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg                     
-                     gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggm                    
-                     ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg                     
-                     iggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg                     g
-                      ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggp                     g
-g                     7gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggm                     g
-g                      7ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggpm                     gg
-gg                       bgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggm                      ggg
-ggg                        bpgggggggggggggggggggggggggggggggggggggggggggggggggggggggggpm                        ggg
-gggg                         7bpgggggggggggggggggggggggggggggggggggggggggggggggggggpmb                         gggg
-ggggg          ggggggg           7hbppgggggggggggggggggggggggggggggggggggggggppbh7                            ggggg
-gggggg         7bgggggggg              77hhhbbpgggggggggggggggggggggpbbhhb7                                  gggggg
-ggggggg           7bggggggg                  ggggggggggggggggggggggggg                                     gggggggg
-ggggggggg            bggggggg               ggggggggggggggggggggggggggg                                   ggggggggg
-ggggggggggg           7ggggggggg          gggggggggggggggggggggggggggggg                                ggggggggggg
-gggggggggggg           7gggggggggggggggggggggggggggggggggggggggggggggggg                              ggggggggggggg
-ggggggggggggggg          bgggggggggggggggggggggggggggggggggggggggggggggg                            ggggggggggggggg
-gggggggggggggggggggggggggggggggggggg      gggggggggggggggggggggggggggggg      ggggggggggggggggggggggggggggggggggggg
-  _______  __  .___________. __    __   __    __  .______   
- /  _____||  | |           ||  |  |  | |  |  |  | |   _  \  
-|  |  __  |  | `---|  |----`|  |__|  | |  |  |  | |  |_)  | 
-|  | |_ | |  |     |  |     |   __   | |  |  |  | |   _  <  
-|  |__| | |  |     |  |     |  |  |  | |  `--'  | |  |_)  | 
- \______| |__|     |__|     |__|  |__|  \______/  |______/  
-
-```
 ## 使用
 ### CLI 模式
 通过命令行使用
@@ -61,7 +12,7 @@ gggggggggggggggggggggggggggggggggggg      gggggggggggggggggggggggggggggg      gg
     - `save` 图片存在本地，在与markdown同一个目录中，若为web server模式，则一并打包成zip下载；
     - `base64` 图片编码成base64字符串放在markdown文件内
 
-例如：windows环境，想把url为`https://mp.weixin.qq.com/s/a=1&b=2`的文章（假设文章标题为"gitcode操你妈"）转成markdown存到 `D:\wechatmp_bak`下，文章内的**图片**保存到**本地**
+例如：windows环境，想把url为 `https://mp.weixin.qq.com/s/a=1&b=2` 的文章（假设文章标题为"gitcode操你妈"）转成markdown存到 `D:\wechatmp_bak`下，文章内的**图片**保存到**本地**
 
 则cmd执行： 
 ```
